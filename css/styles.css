@@ -21,6 +21,35 @@ body {
   height: 1.5em;
 }
 
+body {
+  margin: 0;
+  background-color: #f7f6f2;
+  overflow: hidden;
+}
+
+.container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  max-height: 100vmin;
+  max-width: 100vmin;
+  margin: 0 auto;
+}
+
+.globe {
+  height: 100vmin;
+  width: auto;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.globe--dragging {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+
 .containers {
   width: 520px;
   margin: 20px auto;
