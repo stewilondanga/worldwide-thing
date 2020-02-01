@@ -19,18 +19,17 @@ body {
   height: 1.5em;
 }
 
-/*
 .container {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   max-height: 100vmin;
   max-width: 100vmin;
   margin: 0 auto;
 }
 
-.globe {
+/*.globe {
   height: 100vmin;
   width: auto;
   cursor: -webkit-grab;
